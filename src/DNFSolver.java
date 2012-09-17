@@ -74,9 +74,9 @@ public class DNFSolver {
 				
 				// new variable
 				if (!variables.contains(var)) {
-					variables.add(var);				// add variable to list
-					vars.add(!isNegated);			// if negated, add false here
-					varsNegated.add(isNegated);		// if negated, add true here
+					variables.add(var);		// add variable to list
+					vars.add(!isNegated);		// if negated, add false here
+					varsNegated.add(isNegated);	// if negated, add true here
 				}
 				else {
 					int pos = variables.indexOf(var);
